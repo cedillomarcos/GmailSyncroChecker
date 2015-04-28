@@ -225,7 +225,7 @@ public class GmailGetterSyncro {
 							message2.setSubject(subjNew);
 							
 							message2.setRecipient(Message.RecipientType.TO,
-				                    			  new InternetAddress( toCheck + "@bilbomatica.es"));
+				                    			  new InternetAddress( toCheck + "@company.es"));
 							
 							Transport.send(message2);
 					   }else{
